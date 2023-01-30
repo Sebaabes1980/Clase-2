@@ -55,6 +55,11 @@ section{
     text-align: justify;
 }
 
+section > h2{
+    color: white;
+    margin-left: 40px;
+}
+
 article{
     display: block;
     margin: 0px 60px 40px 60px;

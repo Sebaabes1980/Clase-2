@@ -137,6 +137,11 @@ section{
     margin-right: 220px;
 }
 
+section > h2{
+    color: white;
+    margin-left: 40px;
+}
+
 article{
     display: block;
     margin: 0px 30px 40px 60px;
