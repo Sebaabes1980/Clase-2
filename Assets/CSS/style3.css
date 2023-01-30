@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-image: url(../Images/Logo_Mighty_ducks-01.png);
+    background-size: contain;
+    width: auto;
+    height: 220px;
+    margin: 60px 60px 5px 60px;
+}
+
+header > h1{
+    font-size: 300%;
+    font-style: oblique;
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+}
+
+header > h2{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    position: relative;
+    top: 145px;
+}
+
+main{
+    margin: 30px 60px 5px 60px;
+    display: inline-block;
+}
+
+nav > a{
+    display: inline-block;
+    margin: 25px;
+    padding: 10px;
+    font-size: larger;
+    border: 1px solid black;
+    color: greenyellow;
+}
+
+nav{
+    position: absolute;
+    top: 36%;
+    left:60%;
+}
+
+#A1, #A2, #A3{
+    background-color: rgb(27, 27, 27);
+    transition: background-color 500ms;
+}
+
+#A1:hover{
+    background-color: beige;
+}
+
+#A2:hover{
+    background-color: beige;
+}
+
+#A3:hover{
+    background-color: beige;
+}
+
+.hockey1{
+    background-image: url(../Images/hockey_1.jpg);
+    border: 1px solid black;
+    background-size: contain;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.hockey2{
+    background-image: url(../Images/hockey_2.jpg);
+    border: 1px solid black;
+    background-size: contain;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.image1{
+    background-image: url(../Images/image1.jpg);
+    border: 1px solid black;
+    background-size: contain;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+}
+
+.image2{
+    background-image: url(../Images/image2.jpg);
+    border: 1px solid black;
+    background-size: contain;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    left: 85%;
+}
+
+.hockey1:hover{
+    transform: translate(500px);
+    transition: 2s;
+}
+
+.hockey2:hover{
+    transform: translate(500px);
+    transition: 2s;
+}
+
+.image1:hover{
+    transform: translate(-500px);
+    transition: 2s;
+}
+
+.image2:hover{
+    transform: translate(-500px);
+    transition: 2s;
+}
+
+section{
+    position: absolute;
+    top:325px;
+    left: 15%;
+    text-align: justify;
+    margin-right: 220px;
+}
+
+article{
+    display: block;
+    margin: 0px 30px 40px 60px;
+    text-align: justify;
+}
+
+section > p{
+    margin: 0px 30px 30px 30px;
+}
