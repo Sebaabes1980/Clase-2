@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-header{   
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5em;
+    font-style: oblique;   
+    width: 50%;
+}
+
+nav{
+    width: 50%;
+}
+
+nav > a{  
+    height: 10px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    border: 1px solid black;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(27, 27, 27);
+    transition: background-color 500ms;
+}
+
+nav > a:hover{
+    background-color: beige;
+    color: black;
+}
+
+#A1{
+    background-color: yellowgreen;
+}
+
+figure{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
+}
+
+figure > img{
+    width: 100%;
+    height: 500px;
+    transition: 2s;
+}
+
+figure > img:hover{
+    transform: translateY(-50%);
+}
+
+main{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+main > h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > img{
+    width: 15%;
+}
+
+#logo:hover{
+    margin-left: 200px;
+    margin-bottom: 600px;
+    transform: scale(2);
+    transition: 2s;
+}
+
+#hockey1:hover{
+    transform: translate(-500px);
+    transition: 2s;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.seccion article{
+    margin-top: 20px;
+}
+
+.seccion p, li{
+    margin-top: 20px;
+}
+
+#lista{
+    list-style-type: lower-latin;
+}
+
+table{
+border: 2px double black;
+background-color: antiquewhite;
+}
+
+footer{   
+    margin-top: 20px;
+    font-size: 1em;
+    font-style: oblique;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
+}
