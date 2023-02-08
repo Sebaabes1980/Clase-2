@@ -36,11 +36,9 @@ nav{
 }
 
 nav > a{  
-    height: 10px;
-    width: 100px;
     margin: 10px;
-    padding: 10px;
-    font-size: larger;
+    padding: 3px;
+    font-size: medium;
     border: 1px solid black;
     text-decoration: none;
     color: aliceblue;
@@ -96,12 +94,45 @@ main > h2{
     flex-direction: row;
     text-align: justify;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .container > img{
     width: 15%;
+}
+
+form{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
+}
+
+fieldset{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+    border: 0;
+    margin: 15px 60px;
+}
+fieldset>div{
+    display: inline-block;   
+    width: 50%; 
+}
+
+input{
+   border-radius: 5px;
+}
+
+legend{
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form h4,p{
+    margin: 15px 60px;
 }
 
 #logo:hover{
@@ -114,6 +145,17 @@ main > h2{
 #hockey1:hover{
     transform: translate(-500px);
     transition: 2s;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 30px;
+}
+
+.container1 > div{
+    display: flex;
 }
 
 .seccion{
@@ -136,12 +178,36 @@ main > h2{
 }
 
 table{
-border: 2px double black;
-background-color: antiquewhite;
+    border: 2px double black;
+    margin: 5vh 5vw;
+    background-color: antiquewhite;
+}
+
+#enviar{
+    height: 30px;
+    font-size: large;
+    background-color: beige;
+    transition: background-color 500ms;
+}
+
+#enviar:hover{
+    background-color: black;
+    color: white ;
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 50vw; 
+    height:50vh; 
 }
 
 footer{   
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 1em;
     font-style: oblique;
     text-align: center;
